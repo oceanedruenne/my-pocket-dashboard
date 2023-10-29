@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+
+:root {
+color: black;
+background-color: black;
+width: 100%;
+height: 100%;
+background-image: url('../../public/michael-d-rnKqWvO80Y4-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.center {
+  margin-top: 15%;
+}
+.boutons {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.bouton {
+  color: white;
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.bouton:hover {
+  font-weight: bolder;
+}
+
+button:first-child
+{
+  margin-right: 10%;
+}
+
+.formCenter 
+{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  margin-top: 15%;
+
+}
+
+
+.connecting {
+  color: white;
+  border: 1px solid white;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-top: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.connecting:hover {
+  font-weight: bolder;
+  font-size: 30px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
